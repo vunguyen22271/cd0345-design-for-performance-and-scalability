@@ -1,0 +1,24 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+0,19455.33,233463.96,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+My Estimate,US East (Ohio),,VPN Connection,0,0,0.00,USD,,Working days per month (22)
+My Estimate,US East (Ohio),,Network Address Translation (NAT) Gateway,0,77.85,934.20,USD,,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),,Amazon Route 53,0,183,2196.00,USD,,"Hosted Zones (1), Number of Elastic Network Interfaces (2)"
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,324.85,3898.20,USD,,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),,Amazon CloudFront,0,85,1020.00,USD,,Data transfer out to internet (1000 GB per month)
+My Estimate,US East (N. Virginia),,S3 Standard,0,230,2760.00,USD,,S3 Standard storage (10000 GB per month)
+My Estimate,US East (N. Virginia),,S3 Standard - Infrequent Access,0,37.5,450.00,USD,,S3 Standard-IA storage (3000 GB per month)
+My Estimate,US East (N. Virginia),,S3 Glacier Flexible Retrieval,0,10.85,130.20,USD,,"S3 Glacier Flexible Retrieval Average Object Size (16 MB), Provisioned Capacity Units (0), null (0), S3 Glacier Flexible Retrieval storage (3000 GB per month)"
+My Estimate,US East (N. Virginia),,Data Transfer,0,921.6,11059.20,USD,,"DT Inbound: Internet (0 TB per month), DT Outbound: Internet (10 TB per month)"
+My Estimate,US East (N. Virginia),,Amazon EC2 ,0,6473.64,77683.68,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 12), Advance EC2 instance (c5.9xlarge), Pricing strategy (Compute Savings Plans 3yr  No Upfront), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,11111.04,133332.48,USD,,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (20 GB), Quantity (2), Instance type (db.m4.10xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (OnDemand)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
